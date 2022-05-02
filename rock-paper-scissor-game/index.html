@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="theme-color" content="hsl(237, 49%, 15%)" />
+  <script defer src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+
+  <body>
+    <header>
+      <img src="images/logo.svg" alt="logo" />
+<div class="scoreholder">
+ <div class="scoretext"> Score</div>
+ <h1 class="score">12</h1>
+</div>
+    </header>
+<main>
+  <!-- start of step one -->
+  <div class="one step">
+    <img src="images/bg-triangle.svg" alt="triangle">
+        <div class="circle paper choose">
+            <img src="images/icon-paper.svg" alt="paper" />
+
+    </div>
+    <div class="circle scissors choose">
+         <img src="images/icon-scissors.svg" alt="scissors" />
+
+    </div>
+
+    <div class="circle rock choose">
+     <img src="images/icon-rock.svg" alt="rock" />
+
+    </div>
+
+  </div>
+  <!--end of step one-->
+  <!--start of step two and three -->
+  <div class="two step">
+  <div class="you">
+    <div class="text">You Picked</div>
+
+  <div class="circle">
+
+  </div>
+  </div>
+  <div class="result desktop">
+<div class="win">
+  <div>  You Win</div>
+    <button class="restart">Play Again</button>
+
+</div>
+<div class="lose">
+<div>You Lose</div>
+  <button class="restart">Play Again</button>
+</div>
+
+</div>
+
+ <div class="house">
+   <div class="text"> The House Picked</div>
+
+      <div class="circle ">
+
+      </div>
+    </div>
+  </div>
+    <!--END OF STEP TWO and three-->
+</main>
+<div class="result mobile">
+<div class="win">
+<div>You Win</div>
+  <button class="restart">Play Again</button>
+
+</div>
+<div class="lose">
+<div>You Lose</div>
+  <button class="restart">Play Again</button>
+
+</div>
+
+</div>
+
+<!--POPUP FOR THE RULES -->
+<div class="fill showpopup"></div>
+<div class="popup showpopup">
+  <h2>RULES</h2>
+  <img class="close" src="images/icon-close.svg" alt="close" />
+ <img  class="rulebg" src="images/image-rules.svg" alt="rule" />
+
+</div>
+ <button class="rules"> Rules </button>
+
+<!--END OF POPUP-->
+</body>
+</html>
